@@ -19,10 +19,10 @@ const button=ComputerMove();
     {
             if(button==='Rock')
         {
-            result='wins';
+            result='loses';
         }else if(button==='papre')
         {
-            result='loses';
+            result='win';
         }else 
         {
             result='Tie';
@@ -31,13 +31,13 @@ const button=ComputerMove();
 
             if(button==='Rock')
             {
-                result='loses';
+                result='win';
             }else if(button==='papre')
             {
                 result='Tie';
             }else 
             {
-                result='wins';
+                result='loses';
             }
     }
     else if(Playermove==='Rock'){
@@ -46,10 +46,10 @@ const button=ComputerMove();
                 result='Tie';
             }else if(button==='papre')
             {
-                result='wins';
+                result='loses';
             }else 
             {
-                result='loses';
+                result='win';
             }
 
     }
