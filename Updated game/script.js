@@ -89,7 +89,7 @@ const button=ComputerMove();
         document.querySelector('.js-move').innerHTML=`Game was reset please start again`;
     }
     else{
-        document.querySelector('.js-move').innerHTML=`YourMove: ${Playermove} & ComputerMove: ${ComputerMove()}`;
+        document.querySelector('.js-move').innerHTML=`YourMove: ${Playermove} & ComputerMove: ${button}`;
     }
     }
     
